@@ -2,21 +2,26 @@ import React, {useState} from 'react'
 
 function Counter(){
 
-    const [counter, setCounter] = useState(0)
+    const [count, setCount] = useState(0)
 
     const increment = () => {
-        setCounter(counter + 1)
+        setCount(c => c + 1)
+        setCount(c => c + 1)
+        setCount(c => c + 1)
+        //updater functions
     }
      const decrement = () => {
-        setCounter(counter - 1)
+        setCount(c => c - 1)
+        setCount(c => c - 1)
+        setCount(c => c - 1)
     }
      const reset = () => {
-        setCounter(0)
+        setCount(0)
     }
 
     return(
         <div>
-            Counter = {counter}
+            Counter = {count}
             <p>
                 <button onClick={increment}>Dodaj</button>
                 <button onClick={decrement}>Odejmij</button>

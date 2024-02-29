@@ -1,9 +1,9 @@
-import ColorPicker from './OnChange2.jsx'
+import MyComponent from './UpdateStateObjects.jsx'
 
 function App() {
     return(
         <>
-        <ColorPicker/>
+        <MyComponent/>
 
         </>
     )
