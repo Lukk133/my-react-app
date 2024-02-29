@@ -1,9 +1,9 @@
-import Counter from './Hooks2.jsx'
+import MyComponent from './OnChange.jsx'
 
 function App() {
     return(
         <>
-        <Counter/>
+        <MyComponent/>
 
         </>
     )
