@@ -1,9 +1,9 @@
-import ProfilePicture from './ClickEvents2.jsx'
+import Counter from './Hooks2.jsx'
 
 function App() {
     return(
         <>
-        <ProfilePicture/>
+        <Counter/>
 
         </>
     )
