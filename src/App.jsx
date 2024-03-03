@@ -1,9 +1,9 @@
-import ToDoList from './ToDoList.jsx'
+import MyComponent from './UseEffect.jsx'
 
 function App() {
     return(
         <>
-        <ToDoList/>
+        <MyComponent/>
 
         </>
     )
