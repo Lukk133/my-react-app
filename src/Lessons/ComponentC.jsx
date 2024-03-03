@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import {UserContext} from './ComponentA.jsx'
-import ComponentD from "./ComponentD"
+import ComponentD from "./ComponentD.jsx"
 
 function ComponentC(){
 
